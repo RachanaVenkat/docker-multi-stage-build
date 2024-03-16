@@ -1,1 +1,2 @@
 # docker-multi-stage-build
+Docker multi-stage builds are a feature that allows you to create more efficient Docker images by using multiple build stages within a single Dockerfile. With multi-stage builds, you can separate the build environment from the runtime environment, enabling you to compile and package your application in one stage and then copy the resulting artifacts into a lightweight runtime image in another stage.
